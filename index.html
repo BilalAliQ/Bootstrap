@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body class="bg-light">
+   
+    <nav class="navbar fixed-top py-3 navbar-expand-lg bg-dark bg-body-tertiary">
+  <div class="container-fluid ">
+    <a class="navbar-brand text-info fs-3" href="#">Go4Dev.Solution</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav fs-5 mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--slider-->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://richestsoft.com/blog/wp-content/uploads/2017/07/slider1_image_1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://admin.softsolutions.com.pk/Resources/News/Website-Development-softsolutions.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.businesstrends.com.pk/wp-content/uploads/2021/06/Website-Development.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--slider-->
+
+
+<header class="masthead bg-info">
+            <div class="container px-4 px-lg-5 h-100 ">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-blue font-weight-bold mt-5">First Bootstrap Assignment!</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 fs-5 mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a class="btn btn-light mb-4 fs-4 btn-xl" href="#about">Click here</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- About-->
+        <section class="page-section bg-info " id="about">
+            <div class="container px-4 px-lg-5 pt-4">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-4 mb-4">About Us</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a class="btn btn-light btn-xl mt-4 mb-4 fs-4" href="#services">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services-->
+        <section class="page-section bg-info" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center">Our Services</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Service-1</h3>
+                            <p class="text-muted mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Service-2</h3>
+                            <p class="text-muted mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Service-3</h3>
+                            <p class="text-muted mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Service-4</h3>
+                            <p class="text-muted mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.2461233275026!2d67.03257411447676!3d24.82125535294181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33db0a1b5cb8d%3A0x977535fc3e7328a4!2sSamanZar%20by%20Shaiyanne%20Malik!5e0!3m2!1sen!2s!4v1680958857753!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<div class="container bg-light mb-4 mt-4" >
+        <form class="bg-light ml-4">
+  <div class="mb-1">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-info ">Submit</button>
+</form>
+
+</div>
+
+<footer class="bg-dark text-5 pt-5 pb4">
+
+  <div class=" container text-center text-md-left">
+    
+      <div class="row text-center text-md-left">
+          
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
+                    <h5 class="mb-4 font-weight-bold text-warning">COMPANY NAME</h5>
+                    <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</P>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                     <h5 class=" mb-4 font-weight-bold text-warning">PRODUCTS</h5>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">The Providers</a>
+                     </P>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">Creativity</a>
+                     </P>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">SourceFiles</a>
+                     </P>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">Bootstrap</a>
+                     </P>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              
+                <h5 class=" mb-4 font-weight-bold text-warning">USEFUL LINES</h5>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">Your Accouts</a>
+                     </P>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">Shipping Rates</a>
+                     </P>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">Became an Affiliates</a>
+                     </P>
+                     <P>
+                       <a href="#" class="text-white" style="text-decoration: none;">Help</a>
+                     </P>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class=" mb-4 font-weight-bold text-warning">CONTACTS</h5>
+                     <P>
+                       <i class="text-white fas fa-home mr-3">Karachi,Pakistan</i>
+                     </P>
+                     <P>
+                       <i class="text-white fas fa-envelope mr-3">bilal3101998@gmail.com</i>
+                     </P>
+                     <P>
+                       <i class="text-white fas fa-phone mr-3">+92 3132063834</i>
+                     </P>
+                     <P>
+                       <i class="text-white fas fa-print mr-3"></i>
+                     </P>
+            </div>
+
+        <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p class="text-white">Copyright © 2023 All rights Reserved by:
+            <a href="#" style="text-decoration:none;">
+              <strong class="text-warning">Go4Dev.Solutions</strong></a>
+          </p>
+        </div>
+        
+        </div>
+
+
+      </div>
+  </div>
+  
+
+
+</footer>
+
+</body>
+</html>
